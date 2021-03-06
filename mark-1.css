@@ -1,0 +1,362 @@
+a {
+  text-decoration: none;
+}
+
+.btn-success {
+  background-color: #64b729;
+}
+.navbar-brand {
+  font-size: xx-large;
+  color: white;
+  font-weight: bolder;
+}
+.navbar {
+  padding: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #4e98b0;
+}
+.navbar-light .navbar-brand {
+  color: whitesmoke !important;
+  font-weight: 900;
+  font-size: x-large;
+}
+.navbar-light .navbar-brand:hover {
+  color: black !important;
+  font-weight: 900;
+  font-size: x-large;
+  transition: 500ms ease-in;
+}
+.navbar a {
+  font-size: large;
+  font-weight: 600;
+  color: whitesmoke !important;
+}
+
+.navbar a:hover {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(0, 0, 0) !important;
+}
+
+.dropdown ul li a {
+  color: rgb(0, 0, 0) !important;
+}
+
+/* /Navbar */
+
+/* Introduction-1 */
+#introduction {
+  background-image: linear-gradient(
+    to bottom,
+    #509ab1,
+    #4490a9,
+    #3787a0,
+    #297d98,
+    #187490
+  );
+  padding: 10% 5% 5% 5%;
+}
+
+#introduction .card {
+  padding-top: 7%;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 0px 25px 2px rgb(65, 65, 65);
+  -moz-box-shadow: 0px 0px 25px 2px rgb(65, 65, 65);
+  box-shadow: 0px 0px 25px 2px rgb(65, 65, 65);
+}
+
+#introduction .btn {
+  border-radius: 20px;
+  border: none;
+}
+
+#socialLogin {
+  padding: 5% 5%;
+}
+
+#loginForm {
+  padding: 10% 5% 5% 5%;
+}
+#introduction .btn:hover {
+  background-color: #a3bec7;
+  border: none;
+}
+
+/* /Introduction-1 */
+
+/* /Introduction-2 */
+
+#introduction-2 {
+  min-height: 600px;
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+#introduction-2 h1 {
+  color: white;
+}
+
+#intro-2-contain {
+  background-image: linear-gradient(
+    to bottom,
+    #1a7591,
+    #72aabd,
+    #9cc5d1,
+    #d2e2e7,
+    #ffffff
+  );
+}
+
+#introduction-2 .card {
+  padding: 5% 5% 5% 5%;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.intro-cards {
+  padding: 2% auto;
+  transition: ease-in 200ms;
+  border-radius: 20px;
+  border: none;
+  margin: 2% auto;
+}
+
+.intro-cards:hover {
+  transition: ease-in 200ms;
+  padding: 1% 1%;
+  border-radius: 20px;
+}
+
+#intro-cards {
+  margin-top: 5%;
+}
+
+#intro-cards .card {
+  border-radius: 20px;
+}
+
+/* features-1 */
+#features-1 {
+  padding: 5% 5%;
+  min-height: 600px;
+  text-align: left;
+}
+/* /features-1 */
+
+/* cource offered */
+
+#cources {
+  margin-top: 5%;
+}
+#cources #cource-title {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+#cource-contain {
+  margin-top: 100px;
+}
+
+#nav-UPSC,
+#nav-IBPS,
+#nav-SSC,
+#nav-Engineering {
+  padding: 2% 2% 2% 2%;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.nav-link :active {
+  color: #72aabd;
+}
+
+.round-button {
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+/* / cource offered */
+
+/* testSeries */
+#testSeries {
+  margin-top: 10%;
+}
+
+#testSeries .card {
+  min-height: 100%;
+}
+
+#testSeries h2 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#testSeries .card img {
+  width: 200 px;
+  max-height: 200px;
+}
+
+#testSeries .card {
+  border-radius: 20px;
+}
+#test-link {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.test-contain {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #bdd4db,
+    #aeecff,
+    #76dfff
+  );
+  margin-bottom: 0%;
+  padding-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+  #testSeries .card {
+    margin: 0px auto;
+  }
+  #testSeries .col-md-3 {
+    margin: 30px auto;
+  }
+}
+
+/* /testSeries */
+
+/* Coupon */
+#coupon {
+  max-height: max-content;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  background-image: url("/resources/coupon-1.png");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  padding: 3% 5% 5% 5%;
+}
+
+#coupon-btn {
+  background-color: #831334;
+  border: none;
+}
+
+@media (max-width: 767px) {
+  #coupon {
+    max-height: max-content;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    background-color: #a3bec7;
+    background-image: none;
+
+    padding: 3% 5% 5% 5%;
+  }
+}
+/* /Coupon */
+
+/* testimonials */
+#testimonial-contain {
+  background-image: linear-gradient(
+    to bottom,
+    #76dfff,
+    #7dddfa,
+    #c6f2ff,
+    #ffffff
+  );
+}
+
+#testimonial {
+  padding: 10% 0% 10% 0%;
+  margin: 0% auto;
+}
+
+#testimonial h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#testimonial .container {
+  max-width: 950px;
+}
+
+#testimonial .card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px rgb(97, 77, 134);
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin: 1rem 0.7rem 1rem;
+    max-width: 80vw;
+  }
+}
+
+#testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5rem;
+  margin: 1.3rem auto 1rem auto;
+}
+
+#testimonial .col-md-4 {
+  padding: 0 0.5rem;
+}
+
+#testimonial .card-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-family: "IM Fell French Canon SC";
+}
+
+#testimonial .card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  color: rgb(82, 81, 81);
+  line-height: 1.4rem;
+}
+
+#testimonial .footer {
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
+  font-family: "Varela Round";
+}
+
+#testimonial #name {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#testimonial #position {
+  font-size: 0.7rem;
+}
+
+#testimonial a {
+  color: rgb(151, 248, 6);
+  font-weight: bold;
+}
+
+#testimonial a:hover {
+  color: rgb(151, 248, 6);
+}
+
+/* footer */
+footer .list-unstyled a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #64b729;
+}
+
+footer .list-unstyled a :hover {
+  font-weight: bolder;
+}
+/* /footer */
